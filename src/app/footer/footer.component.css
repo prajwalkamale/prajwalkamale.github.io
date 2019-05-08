@@ -1,0 +1,253 @@
+.service-heading-block{
+	display:block;
+	margin-bottom:30px;
+	}
+.title {
+  display: block;
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.sub-title {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 24px;
+}
+.feature-block {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 15px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 15px;
+  transition:all ease .5s;
+  margin-top:50px;
+}
+.ms-feature:hover, 
+.ms-feature:focus {
+  background-color: #fafafa;
+  box-shadow: 0 3px 4px 3px rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 3px rgba(0, 0, 0, 0.12);
+}
+section.section-block.contact {
+    background: #f2f2f2f2;
+}
+.mrbtm50{margin-bottom: 50px}
+.fb-icon {
+  border-radius: 50%;
+  display: block;
+  font-size: 36px;
+  height: 80px;
+  line-height: 80px;
+  text-align:center;
+  margin:1rem auto;
+  width: 80px;
+  transition: all 0.5s ease 0s;
+}
+.feature-block:hover .fb-icon,
+.feature-block:focus .fb-icon {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  transform: rotate(360deg);
+}
+.fb-icon.color-info {
+  background-color: #5bc0de;
+  color: #fff;
+}
+.fb-icon.color-warning {
+  background-color: #eea236;
+  color: #fff;
+}
+.fb-icon.color-success {
+  background-color: #5cb85c;
+  color: #fff;
+}
+.fb-icon.color-danger {
+  background-color: #d9534f;
+  color: #fff;
+}
+.feature-block h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 3rem 0 1rem;
+}
+.color-info {
+  color: #46b8da;
+}
+.color-warning {
+  color: #f0ad4e;
+}
+.color-success {
+  color: #4cae4c;
+}
+.color-danger {
+  color: #d43f3a;
+}
+.btn-custom{
+  border: medium none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 10px 1px;
+  outline: 0 none;
+  padding: 8px 30px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.section-block{padding: 80px 0;}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+
+#footer {
+    background: #333 !important;
+    padding: 60px 0 0 0;
+    height:329px;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    text-align: left;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    
+    text-align: left;
+}
+#footer ul.social li{
+    padding: 3px 0;
+    text-align: left;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+    transition: .5s all ease;
+    text-align: left;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bdy {
+    font-family: Arial;
+    margin: -230px auto; /* Center website */
+    max-width: 700px; /* Max width */
+    padding: 20px;
+    color:white;
+}
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+    color:white;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
